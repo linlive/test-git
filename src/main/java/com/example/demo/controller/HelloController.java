@@ -13,7 +13,6 @@ public class HelloController {
     
     @RequestMapping("/home")
     public String hello() {
-        return "hello spring boot!";
-        
+        return "Hello, Spring Boot!";
     }
 }
